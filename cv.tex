@@ -1,0 +1,244 @@
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{hyperref}
+\usepackage{geometry}
+\usepackage{graphicx}
+
+% Fonts
+%\usepackage[T1]{fontenc}
+%\usepackage[urw-garamond]{mathdesign}
+
+% Set your name here
+\def\name{Kristoffer Just Arndal Andersen}
+
+% The following metadata will show up in the PDF properties
+\hypersetup{
+  colorlinks = true,
+  urlcolor = black,
+  pdfauthor = {\name},
+  pdfkeywords = {computer science, functional programming},
+  pdftitle = {\name: Curriculum Vitae},
+  pdfsubject = {Curriculum Vitae},
+  pdfpagemode = UseNone
+}
+
+\geometry{
+  body={6.5in, 9.0in},
+  top=1.0in
+}
+
+% Customize page headers
+\pagestyle{myheadings}
+\markright{\name}
+\thispagestyle{empty}
+
+% Custom section fonts
+\usepackage{sectsty}
+\sectionfont{\rmfamily\mdseries\Large}
+\subsectionfont{\rmfamily\mdseries\itshape\large}
+
+% Other possible font commands include:
+% \ttfamily for teletype,
+% \sffamily for sans serif,
+% \bfseries for bold,
+% \scshape for small caps,
+% \normalsize, \large, \Large, \LARGE sizes.
+
+% Don't indent paragraphs.
+\setlength\parindent{0em}
+
+% Make lists without bullets and compact spacing
+\renewenvironment{itemize}{
+  \begin{list}{}{
+    \setlength{\leftmargin}{1.5em}
+    \setlength{\itemsep}{0.25em}
+    \setlength{\parskip}{0pt}
+    \setlength{\parsep}{0.25em}
+  }
+}{
+  \end{list}
+}
+
+\begin{document}
+
+% Place name at left
+
+% Alternatively, print name centered and bold:
+%\centerline{\huge \bf \name}
+
+\begin{minipage}[b]{0.7\textwidth}
+  {\huge\underline \name}
+
+  \bigskip
+  \bigskip
+  \bigskip
+
+  \url{mailto:kja@cs.au.dk}\\
+  (+45) 23 98 69 50
+
+\bigskip
+  Department of Computer Science\\
+  Aarhus University\\
+  Aabogade 34A\\
+  DK-8200 Aarhus N\\
+  Denmark
+  % \bigskip
+  % Marselis Boulevard 78, 5tv\\
+  % DK-8000 Aarhus C\\
+  % Denmark
+  \end{minipage}
+% \begin{minipage}[b]{0.3\textwidth}
+% \includegraphics[width=\textwidth]{photo.pdf}
+% \end{minipage}
+
+
+\section*{Education}
+
+\begin{itemize}
+  \item{\bfseries Ph.d. Programming Language Logic \& Semantics, Aarhus
+      University}\\
+    \emph{Institute of Computer Science}\\
+    \emph{Expected August 2019}
+  \item {\bfseries Visiting Scholar, University College London}\\
+  \emph{Department of Computer Science}\\
+  \emph{Winter/Spring 2018}
+  \item {\bfseries MSc Computer Science, Aarhus University} \\
+    \emph{Report: ``Automatic Verification of Fine-Grained Concurrent Programs''} \\
+    \emph{February 2017}
+  \item {\bfseries BSc Computer Science, Aarhus University} \\
+    \emph{Bachelor project: Compiler for Java 1.3, written in OCaml}\\
+    \emph{Summer 2013}
+  \item {\bfseries International Baccalaureate, Grenaa Gymnasium} \\
+    \emph{Summer 2010}
+  \item{\bfseries Cambridge IGCSE, Overseas Family School, Singapore}\\
+    \emph{Summer 2007}
+\end{itemize}
+
+\section*{Publications}
+
+\begin{enumerate}
+\item Kristoffer Just Arndal Andersen and Ilya Sergey. ``Distributed Protocol Combinators.''
+In Submission for ``\emph{The 21st Symposium on Practical Aspects of Declarative Languages}'' (\emph{PADL19}). Cascais, Portugal. January, 2019.\\
+\url{http://cs.au.dk/~kja/papers/drafts/dpc-padl2019-draft.pdf}
+\item Thomas Dinsdale-Young, Pedro da Rocha Pinto, Kristoffer Just Andersen and
+  Lars Birkedal. ``Caper: Automatic Verification for Fine-Grained Concurrency.''
+  In the proceedings of ``\emph{The 26th European Symposium on
+    Programming}'' (\emph{ESOP17}). Uppsala, Sweden. April, 2017.\\
+  \url{http://cs.au.dk/~kja/papers/caper-esop17/caper.pdf}
+	\item Jakob G. Thomsen, Christian Clausen, Kristoffer Just Andersen, John Danaher and Erik Ernst. ``Reducing Lookups for Invariant Checking". In the proceedings of ``\emph{The European Conference on Object-Oriented Programming}" (\emph{ECOOP13}). Montpelier, France. July, 2013.\\
+          \url{http://www.cs.au.dk/~gedefar/?page=invariant}
+\end{enumerate}
+
+\section*{Employment}
+
+\begin{itemize}
+\item Game Engineer, Wooga GmbH, Berlin, Germany\\
+  \emph{August 2017 - December 2017}
+\item Junior System Engineer, Systematic A/S, Aarhus, Denmark\\
+  \emph{August 2014 - January 2015}
+\item Game Developer, Center for Community Driven Research, Institute of
+  Physics, Aarhus University\\
+  \emph{March 2015 - January, 2015}
+\item Student Programmer at Center for Advanced Static Analysis, Aarhus University\\
+	\emph{November, 2011 - July, 2012}
+\end{itemize}
+
+\subsection*{Positions as ph.d. student at Aarhus University}
+
+\paragraph{CS Challenge} I have managed the early talent program for ambitious
+first year students for 2 years in collaboration with Professor Michael
+Schwartzbach, pitting about 15 students each year up against custom, hand-made
+Computer Science problems for their extra engagement in their studies. As a
+direct result of our efforts, the Institute was the best prepared for when the
+faculty instated mandatory talent programs for all courses of study.
+
+\paragraph{Visitors Service} I have participated in the departments programme
+for visiting high school and secondary school students. Here I give more or less
+interactive presentations to give them a sense of what it is like to study at a
+university, in general, and at the institute of computer science, specifically.
+\subsection*{Positions as teaching assistant at Aarhus University}
+
+\begin{itemize}
+\item Semantics of Programming Languages (MSc/PhD Course),
+  Fall Semester 2016. 17 students.
+\item Web Technologies,
+  Fall Semester 2015. 25 students.
+\item Introduction to Functional Programming (MSc Course),
+  Fall Semester 2015. 35 Students.
+\item Programming Languages,
+  Spring Semester 2015. 20 students.
+\item Software Architecture,
+  Fall Semester 2013. 25 students.
+\item Introduction to Programming,
+  Fall Semester 2013. 19 Students.
+\item Regular Languages \& Automata,
+  Spring Semester 2013. 16 Students.
+\item Web Technologies,
+  Spring Semester 2013. 23 Students.
+\item Programming II, 
+  Fall Semester 2013. 19 Students.
+\item Introduction to Programming,
+  Fall Semester 2012. 1 Student (Special needs).
+\item Programming Languages,
+  Spring Semester 2012. 21 Students.
+\item Introduction to Programming,
+  Spring Semester 2012. 19 Students.
+\item Programming II,
+  Fall Semester 2011. 24 Students.
+\item Introduction to Programming,
+  Fall Semester 2011. 24 Students.
+\end{itemize}
+
+\section*{Awards \& Grants}
+
+\begin{itemize}
+  \item Travel grant from EPSRC's VeTSS Project for GBP 8.000 for stay at UCL.
+  \item Stibo IT Travel Grant for DKK 58.000 for stay at UCL.
+  \item EU COST Project ``EUTypes'' EUR 1000 Travel grant to attend the Principle of
+  Programming Languages Conference (POPL) in Paris, 2017.
+\end{itemize}
+
+\section*{Activities}
+
+\begin{itemize}
+\item Midlands Graduate School on Foundations of Computing, Birmingham, England\\
+  \emph{April 2016}
+\item Finalist at the Nordic Game Jam (15th of 200 Teams), Copenhagen\\
+  \emph{April 2016}
+\item Marktoberdorf Summer School on Software Verification, Germany\\
+  \emph{August 2015}
+\item Oregon Programming Languages Summer School\\
+  \emph{June 2015}
+% \item Invited lightning talk for 450 first year students\\
+%   \emph{September, 2013}
+\item Contributed to the Elm Language project with investigation of its distributed computing capabilities\\
+   \url{http://www.github.com/kandersen/Distributed-Elm} \\
+   \emph{July, 2013}
+% \item Attended the 17th International Conference on Functional Programming, Copenhagen\\
+%   \emph{September, 2012}
+% \item Attended seminar on the Curry-Howard correspondence by Danko Ilik, at Aarhus University\\
+%   \emph{September, 2012}
+\item Summer School on Applied Functional Programming at Universiteit Utrecht, The Netherlands \\
+   \emph {August, 2012} 
+ \item Started the Spare Time Teaching (\url{http://sparetimeteaching.dk/}) Initiative, and taught our first class on OCaml
+ \emph{July, 2012}
+ \item Volunteer bartender in the student bar `Fredagscafeen' \\
+    \emph{November, 2010 -- January, 2012}
+% \item Participant at Nordic Collegiate Programming Contest \\
+%   \emph{October, 2011}
+% \item Invited lightning inspirational talk for 289 first year students
+%   \\ \emph{September, 2011}
+% \item Volunteer at goto; Conference, Aarhus \\
+%   \emph{October, 2010}
+% \item Participant at UNF (`National Youth Science Foundation') Game Development Camp \\
+%   \emph{August, 2009}
+\end{itemize}
+
+% Footer
+\begin{center}
+  \begin{small}
+    Last updated: \today
+  \end{small}
+\end{center}
+
+\end{document}
